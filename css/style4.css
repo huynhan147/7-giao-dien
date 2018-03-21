@@ -2,47 +2,49 @@ h1 {
   text-align: center; }
 
 .container {
-  max-width: 1500px;
-  margin: 10px;
-  min-height: 500px;
+  /*max-width: 1500px;*/
+  margin: 0.75vw;
+  min-height: 37.6vw;
   display: flex;
   flex-wrap: wrap; }
   .container .content1 {
     width: 100%;
-    min-height: 460px;
-    margin: 20px 0px 0px 0px;
+    height: 34.6vw;
+    margin: 1.5vw 0vw 0vw 0vw;
     display: flex; }
     .container .content1 div.images {
       width: 40%;
       height: 100%;
-      padding: 20px; }
+      padding: 1.5vw; }
     .container .content1 .content {
       width: 70%;
       height: 100%;
-      text-align: justify; }
+      text-align: justify;
+      font-size: 1.2vw; }
       .container .content1 .content p {
-        padding: 0px 25px 0px 45px; }
+        padding: 0vw 2vw 0vw 3.4vw; }
   .container .content2, .container .content3 {
     width: 100%;
     /*min-height: 390px;*/
-    margin: 20px 0px;
-    text-align: justify; }
+    margin: 1.5vw 0vw;
+    text-align: justify;
+    font-size: 1.2vw; }
     .container .content3{
-      min-height: 390px;
+      height: 29.3vw;
     }
     .container .content2 p, .container .content3 p {
-      padding: 0px 25px; }
+      padding: 0vw 2vw; }
     .container .content2 .cicle, .container .content3 .cicle {
       width: 40%;
-      height: 100px;
+      height: 7.5vw;
       display: flex; }
       .container .content2 .cicle div, .container .content3 .cicle div {
-        width: 50px;
-        height: 50px;
-        border: 5px solid black;
+        width: 3.8vw;
+        height: 3.8vw;
+        border: 0.37vw solid black;
         border-radius: 100%;
         background-color: black;
-        margin: 25px 25px 0px 25px; }
+        margin: 2vw 2vw 0vw 2vw; }
       .container .content2 .cicle div:hover, .container .content3 .cicle div:hover {
         background-color: white; }
   .container .content3 {
@@ -50,4 +52,4 @@ h1 {
     .container .content3 div {
       width: 30%;
       height: 100%;
-      margin: 0px 25px 25px 25px; }
+      margin: 0vw 2vw 2vw 2vw; }

@@ -3,18 +3,22 @@ h1 {
   text-transform: uppercase; }
 
 .container {
-  max-width: 1500px;
-  min-height: 600px;
+  /*max-width: 1500px;*/
+  min-height: 45.2vw;
   display: flex;
   flex-direction: column;
-  margin: 20px; }
+  margin: 1.5vw; }
   .container .comment {
     width: 100%;
-    min-height: 420px;
-    position: relative; }
+    min-height: 31.6vw;
+    position: relative;
+    }
+    button{
+      font-size: 1.5vw;
+    }
     .container .comment .info {
       width: 100%;
-      min-height: 340px;
+      min-height: 25.6vw;
       display: flex; }
       .container .comment .info input {
         width: 60%; }
@@ -22,29 +26,33 @@ h1 {
         width: 80%; }
     .container .comment .btn {
       position: absolute;
-      left: 430px;
-      margin-top: 15px;
-      width: 150px;
-      height: 50px;
+      left: 32.4vw;
+      margin-top: 1.2vw;
+      width: 11.3vw;
+      height: 3.76vw;
       background-color: #333333;
       color: white; }
   .container .content {
     width: 100%;
-    min-height: 250px;
+    min-height: 18.8vw;
     display: flex;
-    margin: 30px 0px;
+    margin: 2.3vw 0vw;
     background-color: #CACACA; }
     .container .content p {
       text-align: justify;
-      padding: 15px 30px;
-      font-size: 20px; }
+      padding: 1.2vw 2.3vw;
+      font-size: 1.5vw; }
       .content1{
         width: 90%;
-        height: 323px;
+        height: 24.3vw;
       }
       .content .images{
         width: 30%;
       }
        .container .comment .images{
         width: 50%;
+       }
+       textarea{
+        width: 100%;
+        height: 100%;
        }
