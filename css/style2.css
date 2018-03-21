@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  max-width: 1500px;
+  flex-wrap: wrap;
+  margin: 10px; }
+  .container div {
+    background-color: #f1f1f1;
+    width: 30%;
+    margin: 20px;
+    height: 29vw; }

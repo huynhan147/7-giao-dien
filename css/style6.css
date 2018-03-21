@@ -1,0 +1,23 @@
+h1 {
+  text-align: center; }
+
+.container {
+  max-width: 1500px;
+  min-height: 600px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column; }
+  .container .content {
+    width: 100%;
+    min-height: 375px;
+    background-color: #CACACA;
+    margin: 25px 0px;
+    display: flex; }
+    .container .content div {
+      width: 100px;
+      /*margin: 10px;*/
+       }
+      .container .content div p {
+        text-align: justify;
+        padding: 20px;
+        font-size: 20px; }

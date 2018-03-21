@@ -1,0 +1,148 @@
+.container{
+  //max-width: 1500px;
+  min-height: 98vw;
+  margin: 3vw;
+  //border: 1px solid red;
+}
+h1{
+  text-align: center;
+}
+.header {
+  display: flex;
+  align-items: stretch;
+  height: 27vw;
+  .item1 {
+    background-color: #777777;
+    width: 30%;
+    text-align: justify;
+    font-size: 1.2vw;
+    //border: 1px solid red;
+    //margin: 20px 20px 20px 27px;
+    min-height: 11.2vw;
+    flex: initial;
+    display: flex;
+  }
+}
+  p{
+    margin: 1.5vw 0.8vw
+  }
+  .item2{
+    //@extend .item1;
+    display: flex;
+    width: 65%;
+    float: right;
+    padding-left: 5vw;
+    .images-content{
+      width: 45.8%;
+      height: 27vw;
+
+      img{
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+    .content1{
+      background-color: green;
+      width: 54.2%;
+      text-align: justify;
+      font-size: 1.2vw;
+      //border: 1px solid red;
+      //margin: 1.2vw;
+      min-height: 11.3vw;
+      flex: initial;
+      display: flex;
+
+    }
+}
+img.one{
+  width: 100%;
+  height: 100%;
+  //margin: 0px;
+}
+
+.footer{
+  @extend .header;
+  .item{
+    border:1px solid blue;
+    background-color: #009926;
+    //width: 98%;
+    min-height: 15vw;
+    //margin: 0.8vw;
+  }
+  .item3{
+    //background-color: #777777;
+    width: 30%;
+    text-align: justify;
+    font-size: 1.2vw;
+    //margin: 1.5vw;
+    min-height: 30vw;
+    margin-top: 4vw;
+    //float:right;
+  }
+  .images{
+    border:1px solid blue;
+    background-color: #009926;
+    //width: 98%;
+    height: 27vw;
+    //margin: 0.8vw;
+    img{
+      width: 100%;
+      //width: 17vw;
+      height: 12vw;
+      height: 100%;
+    }
+
+  }
+  .images-item{
+    border:1px solid blue;
+    background-color: #009926;
+    //width: 98%;
+    min-height: 23.3vw;
+    //margin: 0.8vw;
+
+  }
+  .item_1{
+    @extend .item3;
+    margin-right: 5vw;
+    .item{
+      margin-top: 5vw;
+      height: 34vw;
+    }
+  }
+  .item_2{
+    @extend .item3;
+    //width: 12px;
+    margin-right: 2vw;
+    .item{
+      height: 34vw;
+    }
+    .images{
+      margin-top: 5vw;
+    }
+
+  }
+  .item_3{
+    @extend .item3;
+    margin-left: 2.8vw;
+    .images-content{
+      height: 27vw;
+    }
+    .content2{
+      height: 37.5vw;
+    }
+  }
+}
+
+
+
+
+content2{
+  width: 100%;
+  text-align: justify;
+  font-size: 1.2vw;
+  //border: 1px solid red;
+  min-height: 11.3vw;
+  flex: initial;
+}
+

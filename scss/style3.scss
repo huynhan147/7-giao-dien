@@ -1,0 +1,25 @@
+.container {
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  .content1 {
+    width: 100%;
+    height: 500px;
+    //padding: 10px;
+  }
+  .content2 {
+    @extend .content1;
+    input {
+      width: 48%;
+      height: 100px;
+      margin: 25px 0px ;
+      font-size: 20px;
+    }
+  }
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+
+}

@@ -1,0 +1,53 @@
+h1 {
+  text-align: center; }
+
+.container {
+  max-width: 1500px;
+  margin: 10px;
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap; }
+  .container .content1 {
+    width: 100%;
+    min-height: 460px;
+    margin: 20px 0px 0px 0px;
+    display: flex; }
+    .container .content1 div.images {
+      width: 40%;
+      height: 100%;
+      padding: 20px; }
+    .container .content1 .content {
+      width: 70%;
+      height: 100%;
+      text-align: justify; }
+      .container .content1 .content p {
+        padding: 0px 25px 0px 45px; }
+  .container .content2, .container .content3 {
+    width: 100%;
+    /*min-height: 390px;*/
+    margin: 20px 0px;
+    text-align: justify; }
+    .container .content3{
+      min-height: 390px;
+    }
+    .container .content2 p, .container .content3 p {
+      padding: 0px 25px; }
+    .container .content2 .cicle, .container .content3 .cicle {
+      width: 40%;
+      height: 100px;
+      display: flex; }
+      .container .content2 .cicle div, .container .content3 .cicle div {
+        width: 50px;
+        height: 50px;
+        border: 5px solid black;
+        border-radius: 100%;
+        background-color: black;
+        margin: 25px 25px 0px 25px; }
+      .container .content2 .cicle div:hover, .container .content3 .cicle div:hover {
+        background-color: white; }
+  .container .content3 {
+    display: flex; }
+    .container .content3 div {
+      width: 30%;
+      height: 100%;
+      margin: 0px 25px 25px 25px; }
